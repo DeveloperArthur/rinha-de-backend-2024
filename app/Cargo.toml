@@ -1,0 +1,13 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+warp = "0.3"
+tokio = { version = "1.2", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+sqlx = { version = "0.5", features = [ "runtime-tokio-rustls", "migrate", "postgres" ]}
+chrono = "0.4.10"

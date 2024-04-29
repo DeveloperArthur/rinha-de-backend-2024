@@ -1,0 +1,8 @@
+app-postgres-1  | 
+app-postgres-1  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+app-postgres-1  | 
+app-postgres-1  | 2024-04-16 20:31:43.343 UTC [1] LOG:  starting PostgreSQL 16.2 (Debian 16.2-1.pgdg120+2) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+app-postgres-1  | 2024-04-16 20:31:43.344 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+app-postgres-1  | 2024-04-16 20:31:43.344 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+app-postgres-1  | 2024-04-16 20:31:43.349 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+app-postgres-1  | 2024-04-16 20:31:43.377 UTC [29] LOG:  database system was interrupted; last known up at 2024-04-16 19:44:10 UTC
