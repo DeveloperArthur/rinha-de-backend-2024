@@ -111,3 +111,6 @@ Levei zero mutas por inconsistência no saldo dos clientes, esse é um resultado
 ![obj](assets/gatling2.png)
 ![obj](assets/gatling3.png)
 ![obj](assets/gatling4.png)
+
+## Curiosidades interessantes
+Dos vídeos de participantes da rinha que eu assisti, teve um participante que manteve toda a regra de negócio de transação no código e usou @Transactional, essa anotação avisa o banco que o registro precisa ser congelado... E teve três participantes que na busca de extrato fizeram duas queries, uma para buscar o cliente e depois outra para buscar as transações, invés de fazer como eu: uma query com subselect
